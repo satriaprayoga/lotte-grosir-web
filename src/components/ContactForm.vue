@@ -24,7 +24,7 @@
                                      <div class="form-group">
                                         <label for="email">
                                             Email Anda
-                                            <span class="asterix">*</span>
+                                             <span class="asterix">*</span>
                                         </label>
                                         <input type="email" name="email" class="form-control" >
                                     </div>
