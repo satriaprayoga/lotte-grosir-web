@@ -93,7 +93,7 @@ export default {
 
 }
 .lottenav .nav-item.bg-red {
-    background-color: #2384c6;
+    background-color: #2D87C5;
     justify-content: center;
 }
 

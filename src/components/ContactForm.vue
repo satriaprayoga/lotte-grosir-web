@@ -29,11 +29,12 @@
                                         <input type="email" name="email" class="form-control" >
                                     </div>
                                     <div class="form-group">
-                                        <label for="email">
-                                            Email Anda
+                                        <label for="phone">
+                                            No. Telepon
+                                            <i>(Aktif WhatsApp)</i>
                                             <span class="asterix">*</span>
                                         </label>
-                                        <input type="email" name="email" class="form-control" >
+                                        <input type="tel" name="phone" class="form-control" >
                                     </div>
                                 </form>
                             </div>

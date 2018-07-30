@@ -22,11 +22,11 @@ export default {
 
 <style>
 #appNav {
-  background-color: #2384c6;
+  background-color: #1158A8;
 }
 
 #appNav .nav-link{
-    color:#99ea16;
+    color:#FEF200;
 }
 
 </style>
