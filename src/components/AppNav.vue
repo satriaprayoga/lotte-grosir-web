@@ -1,7 +1,9 @@
 <template>
     <b-navbar id="appNav" toggleable="md">
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-        <b-navbar-brand>TMUK</b-navbar-brand>
+        <b-navbar-brand href="#">
+            <img src="../assets/logo-tmuk.png" alt="">
+        </b-navbar-brand>
         <b-collapse is-nav id="nav_collapse">
             <b-navbar-nav class="ml-auto">
             <b-nav-item href="#">Keunggulan</b-nav-item>
@@ -27,6 +29,12 @@ export default {
 
 #appNav .nav-link{
     color:#FEF200;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#appNav .nav-link:hover{
+    font-weight: bold;
 }
 
 </style>

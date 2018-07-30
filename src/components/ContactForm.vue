@@ -56,19 +56,19 @@ export default {
 .contact-form{
   padding-top: 68px;
   padding-bottom: 68px;
-  background-color: #e3e3e3; 
+  background-color: #E4E6E5; 
 }
 
 .contact-form .head-form{
   margin-bottom: 30px;
   text-align: center;
-  color: #2384c6;
+  color: #2D87C5;
   
 }
 
 .contact-form .registeration
 {
-  border-top: 5px solid #2384c6;
+  border-top: 5px solid #2D87C5;
   -webkit-box-shadow: 0px 5px 21px -2px rgba(0, 0, 0, 0.47);
     -moz-box-shadow: 0px 5px 21px -2px rgba(0, 0, 0, 0.47);
     box-shadow: 0px 5px 21px -2px rgba(0, 0, 0, 0.47);
@@ -113,7 +113,7 @@ export default {
     border-top: none !important;
   border-right: none !important;
   border-left: none !important;
-  border-bottom: 1px dotted #FDC20F !important;
+  border-bottom: 1px dotted #2D87C5!important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;

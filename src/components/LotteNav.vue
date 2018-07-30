@@ -101,7 +101,7 @@ export default {
     width: 50px;
     height: 50px;
     text-decoration: none;
-    background-color: #e3e3e3;
+    background-color: #E4E6E5;
 }
 
 .lottenav .nav-item.logo {
