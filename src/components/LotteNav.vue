@@ -1,5 +1,5 @@
 <template>
-    <header class="lottenav">
+    <div class="lottenav">
         <div class="nav-content">
              <div class="nav-left"> 
                 <a class="nav-item bg-red" v-on:click="isChange=!isChange">
@@ -13,9 +13,16 @@
                     <img src="../assets/lotte-grosir.png">
                 </a>
              </div>
+             <div class="nav-right"> 
+                <a href="#" class="nav-item">
+                   <span>
+                      <font-awesome-icon icon="map"></font-awesome-icon>
+                   </span>
+                </a>
+             </div>
         </div>
      
-    </header>
+    </div>
     
    
 </template>
@@ -40,16 +47,12 @@ export default {
 
 <style>
 .lottenav{
-    align-items: stretch;
     background-color: #fff;
     display: flex;
     min-height: 3.5rem;
-    position: relative;
-    text-align: center;
     z-index: 2;
 }
 .lottenav .nav-content{
-    align-items: stretch;
     display: flex;
     min-height: 3.5rem;
     width: 100%;
@@ -57,20 +60,26 @@ export default {
 .lottenav .nav-left{
     display: flex;
     justify-content: flex-start;
-    overflow: hidden;
-    overflow-x: auto;
-    white-space: nowrap;
 }
 .lottenav .nav-left, 
 .nav-right{
-    align-items: stretch;
     flex-basis: 0;
     flex-grow: 1;
-    flex-shrink: 0;
 }
 
 .lottenav .nav-right {
+    display: flex;
     justify-content: flex-end;
+}
+
+.lottenav .nav-right .nav-item{
+    align-items: center; 
+  padding-right: .75rem;
+  padding-bottom: .4rem;
+  padding-top: .5rem;
+  font-size: 20px;
+  min-height: 50px;
+  background-color: #e3e3e3; 
 }
 
 .lottenav .nav-item {
@@ -91,12 +100,16 @@ export default {
 }
 
 .lottenav .nav-item.bg-grey {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
     background-color: #e3e3e3;
 }
 
 .lottenav .nav-item.logo {
-   margin-left: 10px;
-   margin-top: -15px;
+  
+   padding-left: .75rem;
+  padding-top: .3rem;
 }
 
 .lottenav .nav-item a{
