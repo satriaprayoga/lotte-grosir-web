@@ -32,11 +32,10 @@
                         </li>
                     </ul>
             </div>
-            <div class="row">
-                <div class="col">
-                    <img src="../assets/logo-tmuk.png" alt="">
-                </div>
+            <div id="footer_img">
+                <img src="../assets/logo-tmuk.png" alt="">
             </div>
+            
         </div>
     </div>
     </div>
@@ -51,7 +50,8 @@ export default {
 #footer .container{
     margin-top: -3px;
     padding-top: 68px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
     max-width: 100%;
     background-color: #2D87C5;;
 }
@@ -87,8 +87,9 @@ export default {
 
 
 
-#footer img{
-    margin-top: -105px;
+#footer #footer_img{
+    
+    margin-top: -80px;
 }
 
 </style>
