@@ -42,6 +42,7 @@
                     </div>
                 </div>
             </div>
+            <img src="../assets/footer.png" alt="" class="img-fluid">
         </div>
     </div>
 </template>
@@ -54,8 +55,9 @@ export default {
 
 <style>
 .contact-form{
+  margin-top: 0;
   padding-top: 68px;
-  padding-bottom: 68px;
+  padding-bottom: 0px;
   background-color: #E4E6E5; 
 }
 
@@ -121,4 +123,7 @@ export default {
   -webkit-transition: none !important;
 }
 
+.contact-form img{
+    margin-left: 150px;
+}
 </style>

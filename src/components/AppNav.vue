@@ -29,11 +29,11 @@ export default {
 
 #appNav .nav-link{
     color:#FEF200;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-left: 10px;
 }
 
-#appNav .nav-link:hover{
+#appNav .nav-link:hover, .nav-link:active{
     font-weight: bold;
 }
 
